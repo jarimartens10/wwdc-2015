@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		491741421ADEE0D500172C55 /* JMPortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491741411ADEE0D500172C55 /* JMPortfolioViewController.swift */; };
+		4917414A1ADEE28700172C55 /* JMTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491741491ADEE28700172C55 /* JMTableView.swift */; };
+		4917414C1ADEE29700172C55 /* JMClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917414B1ADEE29700172C55 /* JMClassTableViewCell.swift */; };
+		4917414E1ADEE48100172C55 /* JMApps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917414D1ADEE48100172C55 /* JMApps.swift */; };
+		492439EC1AE009DB00C1B894 /* JMClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492439EB1AE009DB00C1B894 /* JMClassViewController.swift */; };
+		492439EE1AE00B3000C1B894 /* JMClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492439ED1AE00B3000C1B894 /* JMClasses.swift */; };
+		493B9B541AE1A2FE00B87AD5 /* JMClassDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493B9B531AE1A2FE00B87AD5 /* JMClassDescriptionViewController.swift */; };
+		49449B001ADD8FF600F8C196 /* JMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49449AFF1ADD8FF600F8C196 /* JMViewController.swift */; };
+		4979D7761ADD551100E205C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4979D7751ADD551100E205C6 /* AppDelegate.swift */; };
+		4979D7781ADD551100E205C6 /* JMAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4979D7771ADD551100E205C6 /* JMAboutViewController.swift */; };
+		4979D77B1ADD551100E205C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4979D7791ADD551100E205C6 /* Main.storyboard */; };
+		4979D77D1ADD551100E205C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4979D77C1ADD551100E205C6 /* Images.xcassets */; };
+		4979D7801ADD551100E205C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4979D77E1ADD551100E205C6 /* LaunchScreen.xib */; };
+		4979D78C1ADD551100E205C6 /* Jari_MartensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4979D78B1ADD551100E205C6 /* Jari_MartensTests.swift */; };
+		4979D7961ADD592700E205C6 /* JMImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4979D7951ADD592700E205C6 /* JMImageView.swift */; };
+		4979D7A41ADD5AF800E205C6 /* JTSAnimatedGIFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4979D7991ADD5AF800E205C6 /* JTSAnimatedGIFUtility.m */; };
+		4979D7A51ADD5AF800E205C6 /* JTSImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4979D79B1ADD5AF800E205C6 /* JTSImageInfo.m */; };
+		4979D7A61ADD5AF800E205C6 /* JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4979D79D1ADD5AF800E205C6 /* JTSImageViewController.m */; };
+		4979D7A71ADD5AF800E205C6 /* JTSSimpleImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4979D79F1ADD5AF800E205C6 /* JTSSimpleImageDownloader.m */; };
+		4979D7A81ADD5AF800E205C6 /* UIApplication+JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4979D7A11ADD5AF800E205C6 /* UIApplication+JTSImageViewController.m */; };
+		4979D7A91ADD5AF800E205C6 /* UIImage+JTSImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 4979D7A31ADD5AF800E205C6 /* UIImage+JTSImageEffects.m */; };
+		498299C31AE2657200DFE25C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498299C21AE2657200DFE25C /* Extensions.swift */; };
+		49E96F231ADF8BC1005BED44 /* JMAppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E96F221ADF8BC1005BED44 /* JMAppTableViewCell.swift */; };
+		49E96F251ADF8BC7005BED44 /* JMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E96F241ADF8BC7005BED44 /* JMTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4979D7861ADD551100E205C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4979D7681ADD551100E205C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4979D76F1ADD551100E205C6;
+			remoteInfo = "Jari Martens";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		491741411ADEE0D500172C55 /* JMPortfolioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMPortfolioViewController.swift; sourceTree = "<group>"; };
+		491741491ADEE28700172C55 /* JMTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMTableView.swift; sourceTree = "<group>"; };
+		4917414B1ADEE29700172C55 /* JMClassTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMClassTableViewCell.swift; sourceTree = "<group>"; };
+		4917414D1ADEE48100172C55 /* JMApps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMApps.swift; sourceTree = "<group>"; };
+		492439EB1AE009DB00C1B894 /* JMClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMClassViewController.swift; sourceTree = "<group>"; };
+		492439ED1AE00B3000C1B894 /* JMClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMClasses.swift; sourceTree = "<group>"; };
+		493B9B531AE1A2FE00B87AD5 /* JMClassDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMClassDescriptionViewController.swift; sourceTree = "<group>"; };
+		49449AFF1ADD8FF600F8C196 /* JMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JMViewController.swift; path = "Jari Martens.xcodeproj/../JMViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4979D7701ADD551100E205C6 /* Jari Martens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jari Martens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4979D7741ADD551100E205C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4979D7751ADD551100E205C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4979D7771ADD551100E205C6 /* JMAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMAboutViewController.swift; sourceTree = "<group>"; };
+		4979D77A1ADD551100E205C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4979D77C1ADD551100E205C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4979D77F1ADD551100E205C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4979D7851ADD551100E205C6 /* Jari MartensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jari MartensTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4979D78A1ADD551100E205C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4979D78B1ADD551100E205C6 /* Jari_MartensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jari_MartensTests.swift; sourceTree = "<group>"; };
+		4979D7951ADD592700E205C6 /* JMImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMImageView.swift; sourceTree = "<group>"; };
+		4979D7981ADD5AF800E205C6 /* JTSAnimatedGIFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSAnimatedGIFUtility.h; sourceTree = "<group>"; };
+		4979D7991ADD5AF800E205C6 /* JTSAnimatedGIFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSAnimatedGIFUtility.m; sourceTree = "<group>"; };
+		4979D79A1ADD5AF800E205C6 /* JTSImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSImageInfo.h; sourceTree = "<group>"; };
+		4979D79B1ADD5AF800E205C6 /* JTSImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSImageInfo.m; sourceTree = "<group>"; };
+		4979D79C1ADD5AF800E205C6 /* JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSImageViewController.h; sourceTree = "<group>"; };
+		4979D79D1ADD5AF800E205C6 /* JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSImageViewController.m; sourceTree = "<group>"; };
+		4979D79E1ADD5AF800E205C6 /* JTSSimpleImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSSimpleImageDownloader.h; sourceTree = "<group>"; };
+		4979D79F1ADD5AF800E205C6 /* JTSSimpleImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSSimpleImageDownloader.m; sourceTree = "<group>"; };
+		4979D7A01ADD5AF800E205C6 /* UIApplication+JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+JTSImageViewController.h"; sourceTree = "<group>"; };
+		4979D7A11ADD5AF800E205C6 /* UIApplication+JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JTSImageViewController.m"; sourceTree = "<group>"; };
+		4979D7A21ADD5AF800E205C6 /* UIImage+JTSImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTSImageEffects.h"; sourceTree = "<group>"; };
+		4979D7A31ADD5AF800E205C6 /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
+		4979D7AD1ADD5BED00E205C6 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		498299C21AE2657200DFE25C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		49E96F221ADF8BC1005BED44 /* JMAppTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMAppTableViewCell.swift; sourceTree = "<group>"; };
+		49E96F241ADF8BC7005BED44 /* JMTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4979D76D1ADD551100E205C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4979D7821ADD551100E205C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491741431ADEE0EC00172C55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				491741491ADEE28700172C55 /* JMTableView.swift */,
+				4917414B1ADEE29700172C55 /* JMClassTableViewCell.swift */,
+				49E96F221ADF8BC1005BED44 /* JMAppTableViewCell.swift */,
+				49E96F241ADF8BC7005BED44 /* JMTableViewCell.swift */,
+				4979D7951ADD592700E205C6 /* JMImageView.swift */,
+				4979D7791ADD551100E205C6 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		491741441ADEE0FA00172C55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4979D7771ADD551100E205C6 /* JMAboutViewController.swift */,
+				49449AFF1ADD8FF600F8C196 /* JMViewController.swift */,
+				491741411ADEE0D500172C55 /* JMPortfolioViewController.swift */,
+				492439EB1AE009DB00C1B894 /* JMClassViewController.swift */,
+				493B9B531AE1A2FE00B87AD5 /* JMClassDescriptionViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4917414F1ADEE67E00172C55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				492439ED1AE00B3000C1B894 /* JMClasses.swift */,
+				4917414D1ADEE48100172C55 /* JMApps.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4979D7671ADD551100E205C6 = {
+			isa = PBXGroup;
+			children = (
+				4979D7721ADD551100E205C6 /* Jari Martens */,
+				4979D7881ADD551100E205C6 /* Jari MartensTests */,
+				4979D7711ADD551100E205C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4979D7711ADD551100E205C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4979D7701ADD551100E205C6 /* Jari Martens.app */,
+				4979D7851ADD551100E205C6 /* Jari MartensTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4979D7721ADD551100E205C6 /* Jari Martens */ = {
+			isa = PBXGroup;
+			children = (
+				491741441ADEE0FA00172C55 /* Controller */,
+				491741431ADEE0EC00172C55 /* View */,
+				4917414F1ADEE67E00172C55 /* Model */,
+				4979D7731ADD551100E205C6 /* Supporting Files */,
+			);
+			path = "Jari Martens";
+			sourceTree = "<group>";
+		};
+		4979D7731ADD551100E205C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4979D77C1ADD551100E205C6 /* Images.xcassets */,
+				4979D77E1ADD551100E205C6 /* LaunchScreen.xib */,
+				498299C21AE2657200DFE25C /* Extensions.swift */,
+				4979D7AD1ADD5BED00E205C6 /* BridgingHeader.h */,
+				4979D7751ADD551100E205C6 /* AppDelegate.swift */,
+				4979D7971ADD5AF800E205C6 /* JTSImageViewController */,
+				4979D7741ADD551100E205C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4979D7881ADD551100E205C6 /* Jari MartensTests */ = {
+			isa = PBXGroup;
+			children = (
+				4979D78B1ADD551100E205C6 /* Jari_MartensTests.swift */,
+				4979D7891ADD551100E205C6 /* Supporting Files */,
+			);
+			path = "Jari MartensTests";
+			sourceTree = "<group>";
+		};
+		4979D7891ADD551100E205C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4979D78A1ADD551100E205C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4979D7971ADD5AF800E205C6 /* JTSImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4979D7981ADD5AF800E205C6 /* JTSAnimatedGIFUtility.h */,
+				4979D7991ADD5AF800E205C6 /* JTSAnimatedGIFUtility.m */,
+				4979D79A1ADD5AF800E205C6 /* JTSImageInfo.h */,
+				4979D79B1ADD5AF800E205C6 /* JTSImageInfo.m */,
+				4979D79C1ADD5AF800E205C6 /* JTSImageViewController.h */,
+				4979D79D1ADD5AF800E205C6 /* JTSImageViewController.m */,
+				4979D79E1ADD5AF800E205C6 /* JTSSimpleImageDownloader.h */,
+				4979D79F1ADD5AF800E205C6 /* JTSSimpleImageDownloader.m */,
+				4979D7A01ADD5AF800E205C6 /* UIApplication+JTSImageViewController.h */,
+				4979D7A11ADD5AF800E205C6 /* UIApplication+JTSImageViewController.m */,
+				4979D7A21ADD5AF800E205C6 /* UIImage+JTSImageEffects.h */,
+				4979D7A31ADD5AF800E205C6 /* UIImage+JTSImageEffects.m */,
+			);
+			name = JTSImageViewController;
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4979D76F1ADD551100E205C6 /* Jari Martens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4979D78F1ADD551100E205C6 /* Build configuration list for PBXNativeTarget "Jari Martens" */;
+			buildPhases = (
+				4979D76C1ADD551100E205C6 /* Sources */,
+				4979D76D1ADD551100E205C6 /* Frameworks */,
+				4979D76E1ADD551100E205C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jari Martens";
+			productName = "Jari Martens";
+			productReference = 4979D7701ADD551100E205C6 /* Jari Martens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4979D7841ADD551100E205C6 /* Jari MartensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4979D7921ADD551100E205C6 /* Build configuration list for PBXNativeTarget "Jari MartensTests" */;
+			buildPhases = (
+				4979D7811ADD551100E205C6 /* Sources */,
+				4979D7821ADD551100E205C6 /* Frameworks */,
+				4979D7831ADD551100E205C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4979D7871ADD551100E205C6 /* PBXTargetDependency */,
+			);
+			name = "Jari MartensTests";
+			productName = "Jari MartensTests";
+			productReference = 4979D7851ADD551100E205C6 /* Jari MartensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4979D7681ADD551100E205C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jari Martens";
+				TargetAttributes = {
+					4979D76F1ADD551100E205C6 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					4979D7841ADD551100E205C6 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 4979D76F1ADD551100E205C6;
+					};
+				};
+			};
+			buildConfigurationList = 4979D76B1ADD551100E205C6 /* Build configuration list for PBXProject "Jari Martens" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4979D7671ADD551100E205C6;
+			productRefGroup = 4979D7711ADD551100E205C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4979D76F1ADD551100E205C6 /* Jari Martens */,
+				4979D7841ADD551100E205C6 /* Jari MartensTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4979D76E1ADD551100E205C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4979D77B1ADD551100E205C6 /* Main.storyboard in Resources */,
+				4979D7801ADD551100E205C6 /* LaunchScreen.xib in Resources */,
+				4979D77D1ADD551100E205C6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4979D7831ADD551100E205C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4979D76C1ADD551100E205C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4979D7A51ADD5AF800E205C6 /* JTSImageInfo.m in Sources */,
+				4979D7A81ADD5AF800E205C6 /* UIApplication+JTSImageViewController.m in Sources */,
+				4917414E1ADEE48100172C55 /* JMApps.swift in Sources */,
+				4979D7A71ADD5AF800E205C6 /* JTSSimpleImageDownloader.m in Sources */,
+				4917414C1ADEE29700172C55 /* JMClassTableViewCell.swift in Sources */,
+				4979D7A41ADD5AF800E205C6 /* JTSAnimatedGIFUtility.m in Sources */,
+				4979D7A61ADD5AF800E205C6 /* JTSImageViewController.m in Sources */,
+				4979D7781ADD551100E205C6 /* JMAboutViewController.swift in Sources */,
+				49E96F251ADF8BC7005BED44 /* JMTableViewCell.swift in Sources */,
+				4917414A1ADEE28700172C55 /* JMTableView.swift in Sources */,
+				4979D7961ADD592700E205C6 /* JMImageView.swift in Sources */,
+				492439EE1AE00B3000C1B894 /* JMClasses.swift in Sources */,
+				49449B001ADD8FF600F8C196 /* JMViewController.swift in Sources */,
+				493B9B541AE1A2FE00B87AD5 /* JMClassDescriptionViewController.swift in Sources */,
+				4979D7761ADD551100E205C6 /* AppDelegate.swift in Sources */,
+				498299C31AE2657200DFE25C /* Extensions.swift in Sources */,
+				49E96F231ADF8BC1005BED44 /* JMAppTableViewCell.swift in Sources */,
+				492439EC1AE009DB00C1B894 /* JMClassViewController.swift in Sources */,
+				491741421ADEE0D500172C55 /* JMPortfolioViewController.swift in Sources */,
+				4979D7A91ADD5AF800E205C6 /* UIImage+JTSImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4979D7811ADD551100E205C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4979D78C1ADD551100E205C6 /* Jari_MartensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4979D7871ADD551100E205C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4979D76F1ADD551100E205C6 /* Jari Martens */;
+			targetProxy = 4979D7861ADD551100E205C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4979D7791ADD551100E205C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4979D77A1ADD551100E205C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4979D77E1ADD551100E205C6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4979D77F1ADD551100E205C6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4979D78D1ADD551100E205C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Jari Martens/BridgingHeader.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4979D78E1ADD551100E205C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Jari Martens/BridgingHeader.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4979D7901ADD551100E205C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jari Martens/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4979D7911ADD551100E205C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jari Martens/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4979D7931ADD551100E205C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jari MartensTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jari Martens.app/Jari Martens";
+			};
+			name = Debug;
+		};
+		4979D7941ADD551100E205C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jari MartensTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jari Martens.app/Jari Martens";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4979D76B1ADD551100E205C6 /* Build configuration list for PBXProject "Jari Martens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4979D78D1ADD551100E205C6 /* Debug */,
+				4979D78E1ADD551100E205C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4979D78F1ADD551100E205C6 /* Build configuration list for PBXNativeTarget "Jari Martens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4979D7901ADD551100E205C6 /* Debug */,
+				4979D7911ADD551100E205C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4979D7921ADD551100E205C6 /* Build configuration list for PBXNativeTarget "Jari MartensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4979D7931ADD551100E205C6 /* Debug */,
+				4979D7941ADD551100E205C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4979D7681ADD551100E205C6 /* Project object */;
+}
