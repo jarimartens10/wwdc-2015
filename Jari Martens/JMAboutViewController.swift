@@ -10,6 +10,7 @@ import UIKit
 import MessageUI
 
 final class JMAboutViewController: JMViewController {
+    @IBOutlet weak var ProfileImageView: JMImageView!
     @IBOutlet weak var scrollView: UIScrollView!
     /*@IBOutlet weak var ProfileImageView: JMImageView!
     @IBOutlet weak var visualEffectView: UIVisualEffectView!

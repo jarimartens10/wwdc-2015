@@ -6,8 +6,5 @@
 //  Copyright (c) 2015 Jari Martens. All rights reserved.
 //
 
-#ifndef Jari_Martens_BridgingHeader_h
-#define Jari_Martens_BridgingHeader_h
 #import "JTSImageViewController.h"
-
-#endif
+#import <Spotify/Spotify.h>

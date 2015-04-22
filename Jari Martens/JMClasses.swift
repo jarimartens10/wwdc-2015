@@ -147,6 +147,9 @@ enum JMClasses {
         else if mark >= 6.3 {
             return "C"
         }
+        else if mark >= 5.8 {
+            return "D+"
+        }
         else if mark >= 5.0 {
             return "D"
         }

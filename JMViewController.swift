@@ -10,7 +10,6 @@ import UIKit
 import MessageUI
 
 class JMViewController: UIViewController, JMImageViewDelegate, MFMailComposeViewControllerDelegate {
-    @IBOutlet weak var ProfileImageView: JMImageView!
     @IBOutlet weak var visualEffectView: UIVisualEffectView!
     @IBOutlet weak var backgroundImageView: UIImageView!
     
