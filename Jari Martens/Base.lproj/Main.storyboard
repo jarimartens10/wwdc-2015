@@ -269,10 +269,10 @@
                         <rect key="frame" x="0.0" y="44" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="Bb1-jc-v7r">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="Bb1-jc-v7r">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
                             </imageView>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bkG-wM-dez">
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bkG-wM-dez">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ukD-10-k3h">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
@@ -326,7 +326,7 @@
                                                 <action selector="sliderChanged:" destination="C7P-uQ-LjV" eventType="valueChanged" id="lqi-1w-fIy"/>
                                             </connections>
                                         </slider>
-                                        <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B63-Hu-E4b">
+                                        <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B63-Hu-E4b">
                                             <rect key="frame" x="0.0" y="507" width="600" height="44"/>
                                             <items>
                                                 <barButtonItem systemItem="rewind" id="nAC-nU-qjN">

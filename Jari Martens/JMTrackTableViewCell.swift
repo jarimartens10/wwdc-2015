@@ -10,7 +10,6 @@ import UIKit
 
 class JMTrackTableViewCell: JMTableViewCell {
     
-    
     var representingTrack: SPTTrack! {
         didSet{
             detailTextLabel?.text = NSTimeInterval.stringForTimeInterval(representingTrack.duration)
