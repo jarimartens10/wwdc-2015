@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>EBF12A90-2138-4EB0-951D-81FC114FB283</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Jari Martens</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>638075331FAE0AB4F6CE978BE71FD076361D86C5</key>
 		<string>github.com:jarimartens10/wwdc-2015.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Jari Martens.xcodeproj</string>
+	<string>Jari Martens.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>638075331FAE0AB4F6CE978BE71FD076361D86C5</key>
