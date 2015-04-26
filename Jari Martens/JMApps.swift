@@ -26,7 +26,7 @@ enum JMApps {
     var description: String {
         switch self {
         case .ConnectR: return "ConnectR is a social media application that lets users combine multiple social networks. This means users can post messages to multiple social networks. Users can also view the timelines of multiple social networks as one timeline. They can also search for users and hashtags on multiple social networks. Currently, Twitter and Instagram are supported. The app is published on name of my father’s company, but as you can see at the copyright notice at the iOS App Store, it is developed by me."
-        case .HVAC_Plus: return "HVAC Plus is"
+        case .HVAC_Plus: return "HVAC Plus is an app I am currently developing for my father, who is a consultant to contractors for the installations in a building. With the app, you can perform calculations that are common in his field of expertise. Those calculations rely on multiple variables, that are automatically saved and loaded into each calculation. An example of this is calculating the needed size of the ducts, based on a given air volume and the speed of the air inside the duct."
         }
     }
     
