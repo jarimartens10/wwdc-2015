@@ -9,6 +9,9 @@
 import UIKit
 
 final class JMPortfolioViewController: JMViewController, UITableViewDelegate, UITableViewDataSource {
+    //MARK: - Lazy Variables
+    //###########################################################
+
     private lazy var tableView: JMTableView = {
         [unowned self] in
         
@@ -19,14 +22,25 @@ final class JMPortfolioViewController: JMViewController, UITableViewDelegate, UI
         return tableView
     }()
     
+    //###########################################################
+
+    
+    //MARK: - Overriding Functions
+    //###########################################################
+
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.scrollEnabled = false
         view.addSubview(tableView)
     }
     
+    //###########################################################
+
+
+    //MARK: - TableViewDataSource & Delegate
+    //###########################################################
+
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
@@ -72,14 +86,6 @@ final class JMPortfolioViewController: JMViewController, UITableViewDelegate, UI
         return label
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    //###########################################################
 
 }

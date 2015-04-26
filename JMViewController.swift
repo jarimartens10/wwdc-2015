@@ -10,10 +10,19 @@ import UIKit
 import MessageUI
 
 class JMViewController: UIViewController, JMImageViewDelegate, MFMailComposeViewControllerDelegate {
+    
+    //MARK: - IBOutlets
+    //###########################################################
+    
     @IBOutlet weak var visualEffectView: UIVisualEffectView!
     @IBOutlet weak var backgroundImageView: UIImageView!
     
+    //###########################################################
+    
+    
     //MARK: - JMImageViewDelegate
+    //###########################################################
+    
     func didTapImageView(imageView: JMImageView) {
         let imageInfo = JTSImageInfo()
         imageInfo.image = imageView.image
@@ -72,9 +81,21 @@ class JMViewController: UIViewController, JMImageViewDelegate, MFMailComposeView
         imageViewer.presentViewController(controller, animated: true, completion: nil)
     }
     
+    //###########################################################
+    
+    
+    //MARK: - MFMailComposeViewControllerDelegate
+    //###########################################################
+    
     func mailComposeController(controller: MFMailComposeViewController!, didFinishWithResult result: MFMailComposeResult, error: NSError!) {
         controller.dismissViewControllerAnimated(true, completion: nil)
     }
+    
+    //###########################################################
+    
+    
+    //MARK: - Status bar
+    //###########################################################
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         //If not hidden, display status bar in white text
@@ -84,4 +105,6 @@ class JMViewController: UIViewController, JMImageViewDelegate, MFMailComposeView
     override func prefersStatusBarHidden() -> Bool {
         return true
     }
+    
+    //###########################################################
 }

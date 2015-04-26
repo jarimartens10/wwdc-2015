@@ -9,6 +9,9 @@
 import UIKit
 
 final class JMClassViewController: JMViewController, UITableViewDelegate, UITableViewDataSource, UIPopoverPresentationControllerDelegate {
+    //MARK: - Lazy Variables
+    //###########################################################
+
     private lazy var tableView: JMTableView = {
         [unowned self] in
         
@@ -18,15 +21,25 @@ final class JMClassViewController: JMViewController, UITableViewDelegate, UITabl
         return tableView
     }()
     
+    //###########################################################
+
+    
+    //MARK: - Overriding Functions
+    //###########################################################
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
         view.addSubview(tableView)
-        // Do any additional setup after loading the view.
     }
     
+    //###########################################################
+
+    
+    //MARK: - TableViewDataSource & Delegate
+    //###########################################################
+
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return JMClasses.all_values.count
     }
@@ -44,10 +57,6 @@ final class JMClassViewController: JMViewController, UITableViewDelegate, UITabl
         
         return cell
     }
-    
-    /*func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return max(tableView.frame.height/CGFloat(JMClasses.all_values.count), 35)
-    }*/
 
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
@@ -64,7 +73,7 @@ final class JMClassViewController: JMViewController, UITableViewDelegate, UITabl
         case .IB, .MO, .PE, .RE:
             return 70
         default:
-            return 35//super.tableView(tableView: tableView, heightForRowAtIndexPath: indexPath)
+            return 35
         }
     }
     
@@ -82,6 +91,12 @@ final class JMClassViewController: JMViewController, UITableViewDelegate, UITabl
         return label
     }
     
+    //###########################################################
+
+
+    //MARK: - Popover Segue
+    //###########################################################
+
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if let identifier = segue.identifier {
             if identifier == "showDescription" {
@@ -102,14 +117,5 @@ final class JMClassViewController: JMViewController, UITableViewDelegate, UITabl
         return UIModalPresentationStyle.None
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    //###########################################################
 }

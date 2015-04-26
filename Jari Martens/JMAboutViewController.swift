@@ -10,17 +10,22 @@ import UIKit
 import MessageUI
 
 final class JMAboutViewController: JMViewController {
+    //MARK: - Variables
+    //###########################################################
+
     @IBOutlet weak var ProfileImageView: JMImageView!
     @IBOutlet weak var scrollView: UIScrollView!
-    /*@IBOutlet weak var ProfileImageView: JMImageView!
-    @IBOutlet weak var visualEffectView: UIVisualEffectView!
-    @IBOutlet weak var backgroundImageView: UIImageView!*/
     @IBOutlet var swipeGestureRecognizerDown: UISwipeGestureRecognizer!
     @IBOutlet var swipeGestureRecognizerUp: UISwipeGestureRecognizer!
     private var nameLabel = UILabel()
     private var textView = UITextView()
 
-    
+    //###########################################################
+
+
+    //MARK: - Overriding Functions
+    //###########################################################
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -28,6 +33,7 @@ final class JMAboutViewController: JMViewController {
         ProfileImageView.layer.borderColor = UIColor.whiteColor().CGColor
         ProfileImageView.layer.borderWidth = 5.0
         ProfileImageView.layer.masksToBounds = true
+        ProfileImageView.image = UIImage(named: "backgroundImage")
         ProfileImageView.delegate = self
         scrollView.contentSize = CGSize(width: view.frame.width, height: view.frame.height*1.5)
         ProfileImageView.frame = CGRect(x: scrollView.center.x-201, y: view.frame.height*0.50-200, width: 200, height: 200)
@@ -50,9 +56,6 @@ final class JMAboutViewController: JMViewController {
         scrollView.addSubview(textView)
         scrollView.addSubview(nameLabel)
         scrollView.scrollEnabled = false
-        //scrollView.delegate = self
-    
-        //visualEffectView = UIVisualEffectView(effect: UIVibrancyEffect(forBlurEffect: UIBlurEffect(style: UIBlurEffectStyle.Light)))
     }
 
     override func viewDidAppear(animated: Bool) {
@@ -66,6 +69,12 @@ final class JMAboutViewController: JMViewController {
             },
             completion: nil)
     }
+    
+    //###########################################################
+
+    
+    //MARK: - Swipe Recognizer
+    //###########################################################
     
     @IBAction func didSwipe(swipe: UISwipeGestureRecognizer) {
         if swipe.direction == UISwipeGestureRecognizerDirection.Down {
@@ -96,4 +105,6 @@ final class JMAboutViewController: JMViewController {
                 completion: nil)
         }
     }
+    
+    //###########################################################
 }

@@ -8,12 +8,20 @@
 
 import UIKit
 
-final class JMLoginSpotifyViewController: JMSpotifyViewController, SPTAuthViewDelegate {
+final class JMLoginSpotifyViewController: JMViewController, SPTAuthViewDelegate {
+    //MARK: - Variables
+    //###########################################################
+
     @IBOutlet weak var quoteLabel: UILabel!
     @IBOutlet weak var loginButton: UIButton!
     private var authViewController: SPTAuthViewController!
+
+    //###########################################################
+
     
-    
+    //MARK: - Overriding Functions
+    //###########################################################
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,23 +33,24 @@ final class JMLoginSpotifyViewController: JMSpotifyViewController, SPTAuthViewDe
             }
             
         }
-        
-        
     }
-    
-    func loggedIn() {
-        println("logged in")
-        if SPTAuth.defaultInstance().session.isValid() {
+    //###########################################################
+
+
+    //MARK: - Log in functions
+    //###########################################################
+
+    private func loggedIn() {
+        if SPTAuth.defaultInstance().session.isValid(){
             performSegueWithIdentifier("playMusic", sender: nil)
         }
     }
-    
     
     @IBAction func login(sender: UIButton) {
         openLoginPage()
     }
     
-    func openLoginPage() {
+    private func openLoginPage() {
         authViewController = SPTAuthViewController.authenticationViewController()
         authViewController.delegate = self
         authViewController.modalPresentationStyle = UIModalPresentationStyle.OverCurrentContext
@@ -51,13 +60,17 @@ final class JMLoginSpotifyViewController: JMSpotifyViewController, SPTAuthViewDe
         presentViewController(authViewController, animated: true, completion: nil)
     }
     
+    //###########################################################
+
+    
+    //MARK: - SPTAuthViewDelegate
+    //###########################################################
+
     func authenticationViewController(authenticationViewController: SPTAuthViewController!, didFailToLogin error: NSError!) {
-        //
+        // TODO: ADD ALERT
     }
     
     func authenticationViewController(authenticationViewController: SPTAuthViewController!, didLoginWithSession session: SPTSession!) {
-        //Handle Login
-        
         let userDefaults = NSUserDefaults.standardUserDefaults()
         let userSession = NSKeyedArchiver.archivedDataWithRootObject(session)
         userDefaults.setObject(userSession, forKey: Constants.UserDefaultsKey)
@@ -69,10 +82,8 @@ final class JMLoginSpotifyViewController: JMSpotifyViewController, SPTAuthViewDe
     }
     
     func authenticationViewControllerDidCancelLogin(authenticationViewController: SPTAuthViewController!) {
-        //
+        //Do nothing, just here for conforming to protocol
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        super.prepareForSegue(segue, sender: sender)
-    }
+    //###########################################################
 }

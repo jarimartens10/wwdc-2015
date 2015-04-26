@@ -11,11 +11,11 @@
 		4917414A1ADEE28700172C55 /* JMTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491741491ADEE28700172C55 /* JMTableView.swift */; };
 		4917414C1ADEE29700172C55 /* JMClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917414B1ADEE29700172C55 /* JMClassTableViewCell.swift */; };
 		4917414E1ADEE48100172C55 /* JMApps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917414D1ADEE48100172C55 /* JMApps.swift */; };
+		491B98481AE936A600E82139 /* JMTrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B98471AE936A600E82139 /* JMTrackTableViewCell.swift */; };
 		492439EC1AE009DB00C1B894 /* JMClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492439EB1AE009DB00C1B894 /* JMClassViewController.swift */; };
 		492439EE1AE00B3000C1B894 /* JMClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492439ED1AE00B3000C1B894 /* JMClasses.swift */; };
 		49350F1E1AE53F5300E4C59F /* JMPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49350F1D1AE53F5300E4C59F /* JMPlaylistViewController.swift */; };
 		49350F201AE5453400E4C59F /* JMLoginSpotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49350F1F1AE5453300E4C59F /* JMLoginSpotifyViewController.swift */; };
-		49350F221AE545AC00E4C59F /* JMSpotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49350F211AE545AC00E4C59F /* JMSpotifyViewController.swift */; };
 		493B9B541AE1A2FE00B87AD5 /* JMClassDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493B9B531AE1A2FE00B87AD5 /* JMClassDescriptionViewController.swift */; };
 		49449B001ADD8FF600F8C196 /* JMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49449AFF1ADD8FF600F8C196 /* JMViewController.swift */; };
 		4979D7761ADD551100E205C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4979D7751ADD551100E205C6 /* AppDelegate.swift */; };
@@ -32,8 +32,9 @@
 		4979D7A81ADD5AF800E205C6 /* UIApplication+JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4979D7A11ADD5AF800E205C6 /* UIApplication+JTSImageViewController.m */; };
 		4979D7A91ADD5AF800E205C6 /* UIImage+JTSImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 4979D7A31ADD5AF800E205C6 /* UIImage+JTSImageEffects.m */; };
 		498299C31AE2657200DFE25C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498299C21AE2657200DFE25C /* Extensions.swift */; };
-		499098961AE82F1600B8B868 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49350F161AE53D7200E4C59F /* AVFoundation.framework */; };
-		499098991AE82F4800B8B868 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499098971AE82F2900B8B868 /* Spotify.framework */; };
+		49C9A77F1AECD56E00F778E8 /* JMNoAnimationSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9A77E1AECD56E00F778E8 /* JMNoAnimationSegue.swift */; };
+		49D515801AE83C1600A4ACD5 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D5157F1AE83C1600A4ACD5 /* Spotify.framework */; };
+		49D515831AE83C3900A4ACD5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D515821AE83C3900A4ACD5 /* AVFoundation.framework */; };
 		49E96F231ADF8BC1005BED44 /* JMAppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E96F221ADF8BC1005BED44 /* JMAppTableViewCell.swift */; };
 		49E96F251ADF8BC7005BED44 /* JMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E96F241ADF8BC7005BED44 /* JMTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -53,12 +54,11 @@
 		491741491ADEE28700172C55 /* JMTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMTableView.swift; sourceTree = "<group>"; };
 		4917414B1ADEE29700172C55 /* JMClassTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMClassTableViewCell.swift; sourceTree = "<group>"; };
 		4917414D1ADEE48100172C55 /* JMApps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMApps.swift; sourceTree = "<group>"; };
+		491B98471AE936A600E82139 /* JMTrackTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMTrackTableViewCell.swift; sourceTree = "<group>"; };
 		492439EB1AE009DB00C1B894 /* JMClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMClassViewController.swift; sourceTree = "<group>"; };
 		492439ED1AE00B3000C1B894 /* JMClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMClasses.swift; sourceTree = "<group>"; };
-		49350F161AE53D7200E4C59F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		49350F1D1AE53F5300E4C59F /* JMPlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMPlaylistViewController.swift; sourceTree = "<group>"; };
 		49350F1F1AE5453300E4C59F /* JMLoginSpotifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMLoginSpotifyViewController.swift; sourceTree = "<group>"; };
-		49350F211AE545AC00E4C59F /* JMSpotifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMSpotifyViewController.swift; sourceTree = "<group>"; };
 		493B9B531AE1A2FE00B87AD5 /* JMClassDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMClassDescriptionViewController.swift; sourceTree = "<group>"; };
 		49449AFF1ADD8FF600F8C196 /* JMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JMViewController.swift; path = "Jari Martens.xcodeproj/../JMViewController.swift"; sourceTree = SOURCE_ROOT; };
 		4979D7701ADD551100E205C6 /* Jari Martens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jari Martens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +86,9 @@
 		4979D7A31ADD5AF800E205C6 /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
 		4979D7AD1ADD5BED00E205C6 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		498299C21AE2657200DFE25C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		499098971AE82F2900B8B868 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spotify.framework; path = ../Spotify.framework; sourceTree = "<group>"; };
+		49C9A77E1AECD56E00F778E8 /* JMNoAnimationSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMNoAnimationSegue.swift; sourceTree = "<group>"; };
+		49D5157F1AE83C1600A4ACD5 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
+		49D515821AE83C3900A4ACD5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		49E96F221ADF8BC1005BED44 /* JMAppTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMAppTableViewCell.swift; sourceTree = "<group>"; };
 		49E96F241ADF8BC7005BED44 /* JMTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,8 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				499098991AE82F4800B8B868 /* Spotify.framework in Frameworks */,
-				499098961AE82F1600B8B868 /* AVFoundation.framework in Frameworks */,
+				49D515831AE83C3900A4ACD5 /* AVFoundation.framework in Frameworks */,
+				49D515801AE83C1600A4ACD5 /* Spotify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,10 +117,12 @@
 			isa = PBXGroup;
 			children = (
 				491741491ADEE28700172C55 /* JMTableView.swift */,
+				49E96F241ADF8BC7005BED44 /* JMTableViewCell.swift */,
 				4917414B1ADEE29700172C55 /* JMClassTableViewCell.swift */,
 				49E96F221ADF8BC1005BED44 /* JMAppTableViewCell.swift */,
-				49E96F241ADF8BC7005BED44 /* JMTableViewCell.swift */,
+				491B98471AE936A600E82139 /* JMTrackTableViewCell.swift */,
 				4979D7951ADD592700E205C6 /* JMImageView.swift */,
+				49C9A77E1AECD56E00F778E8 /* JMNoAnimationSegue.swift */,
 				4979D7791ADD551100E205C6 /* Main.storyboard */,
 			);
 			name = View;
@@ -133,7 +137,6 @@
 				492439EB1AE009DB00C1B894 /* JMClassViewController.swift */,
 				493B9B531AE1A2FE00B87AD5 /* JMClassDescriptionViewController.swift */,
 				49350F1D1AE53F5300E4C59F /* JMPlaylistViewController.swift */,
-				49350F211AE545AC00E4C59F /* JMSpotifyViewController.swift */,
 				49350F1F1AE5453300E4C59F /* JMLoginSpotifyViewController.swift */,
 			);
 			name = Controller;
@@ -169,9 +172,10 @@
 		4979D7721ADD551100E205C6 /* Jari Martens */ = {
 			isa = PBXGroup;
 			children = (
-				491741441ADEE0FA00172C55 /* Controller */,
-				491741431ADEE0EC00172C55 /* View */,
+				49D515811AE83C1900A4ACD5 /* Frameworks */,
 				4917414F1ADEE67E00172C55 /* Model */,
+				491741431ADEE0EC00172C55 /* View */,
+				491741441ADEE0FA00172C55 /* Controller */,
 				4979D7731ADD551100E205C6 /* Supporting Files */,
 			);
 			path = "Jari Martens";
@@ -185,8 +189,6 @@
 				498299C21AE2657200DFE25C /* Extensions.swift */,
 				4979D7AD1ADD5BED00E205C6 /* BridgingHeader.h */,
 				4979D7751ADD551100E205C6 /* AppDelegate.swift */,
-				499098971AE82F2900B8B868 /* Spotify.framework */,
-				49350F161AE53D7200E4C59F /* AVFoundation.framework */,
 				4979D7971ADD5AF800E205C6 /* JTSImageViewController */,
 				4979D7741ADD551100E205C6 /* Info.plist */,
 			);
@@ -228,6 +230,16 @@
 			);
 			name = JTSImageViewController;
 			path = Source;
+			sourceTree = "<group>";
+		};
+		49D515811AE83C1900A4ACD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49D515821AE83C3900A4ACD5 /* AVFoundation.framework */,
+				49D5157F1AE83C1600A4ACD5 /* Spotify.framework */,
+			);
+			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,11 +286,17 @@
 		4979D7681ADD551100E205C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JM;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Jari Martens";
 				TargetAttributes = {
 					4979D76F1ADD551100E205C6 = {
 						CreatedOnToolsVersion = 6.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					4979D7841ADD551100E205C6 = {
 						CreatedOnToolsVersion = 6.3;
@@ -334,11 +352,11 @@
 				4979D7A81ADD5AF800E205C6 /* UIApplication+JTSImageViewController.m in Sources */,
 				4917414E1ADEE48100172C55 /* JMApps.swift in Sources */,
 				4979D7A71ADD5AF800E205C6 /* JTSSimpleImageDownloader.m in Sources */,
-				49350F221AE545AC00E4C59F /* JMSpotifyViewController.swift in Sources */,
 				4917414C1ADEE29700172C55 /* JMClassTableViewCell.swift in Sources */,
 				4979D7A41ADD5AF800E205C6 /* JTSAnimatedGIFUtility.m in Sources */,
 				4979D7A61ADD5AF800E205C6 /* JTSImageViewController.m in Sources */,
 				4979D7781ADD551100E205C6 /* JMAboutViewController.swift in Sources */,
+				49C9A77F1AECD56E00F778E8 /* JMNoAnimationSegue.swift in Sources */,
 				49E96F251ADF8BC7005BED44 /* JMTableViewCell.swift in Sources */,
 				4917414A1ADEE28700172C55 /* JMTableView.swift in Sources */,
 				49350F1E1AE53F5300E4C59F /* JMPlaylistViewController.swift in Sources */,
@@ -350,6 +368,7 @@
 				498299C31AE2657200DFE25C /* Extensions.swift in Sources */,
 				49E96F231ADF8BC1005BED44 /* JMAppTableViewCell.swift in Sources */,
 				492439EC1AE009DB00C1B894 /* JMClassViewController.swift in Sources */,
+				491B98481AE936A600E82139 /* JMTrackTableViewCell.swift in Sources */,
 				491741421ADEE0D500172C55 /* JMPortfolioViewController.swift in Sources */,
 				49350F201AE5453400E4C59F /* JMLoginSpotifyViewController.swift in Sources */,
 				4979D7A91ADD5AF800E205C6 /* UIImage+JTSImageEffects.m in Sources */,
@@ -489,10 +508,6 @@
 				INFOPLIST_FILE = "Jari Martens/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -510,10 +525,6 @@
 				INFOPLIST_FILE = "Jari Martens/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

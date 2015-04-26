@@ -13,3 +13,18 @@ extension UITabBarItem {
         self.selectedImage = UIImage(named: name)
     }
 }
+
+extension NSTimeInterval {
+    var seconds: Double {
+        return trunc(self - minutes * 60)
+    }
+    
+    var minutes: Double {
+        return floor(self/60)
+    }
+    
+    static func stringForTimeInterval(timeInterval: NSTimeInterval) -> String {
+        let secondsToShow = Int(timeInterval.seconds) < 10 ? "0\(Int(timeInterval.seconds))" : "\(Int(timeInterval.seconds))"
+        return "\(Int(timeInterval.minutes)):\(secondsToShow)"
+    }
+}
