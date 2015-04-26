@@ -3,17 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "Swipe_Down.png"
+      "filename" : "Swipe_Up.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "Swipe_Down-2.png"
+      "filename" : "Swipe_Up-1.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "Swipe_Down-1.png"
+      "filename" : "Swipe_Up-2.png"
     }
   ],
   "info" : {

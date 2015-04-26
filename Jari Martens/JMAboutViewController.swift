@@ -72,6 +72,13 @@ final class JMAboutViewController: JMViewController, UITextViewDelegate {
         tempTextView.delegate = self
         return tempTextView
     }()
+    
+    private lazy var swipeUpImageView: UIImageView = {
+        let imageView = UIImageView(image: UIImage(named: "Swipe_Up"))
+        imageView.frame = CGRect(x: 0.0, y: self.view.frame.height*0.25+200, width: self.view.frame.width, height: self.view.frame.height*0.75-200-(self.tabBarController?.tabBar.frame.height ?? 0))
+        imageView.contentMode = UIViewContentMode.ScaleAspectFit
+        return imageView
+    }()
 
     //###########################################################
 
@@ -91,7 +98,7 @@ final class JMAboutViewController: JMViewController, UITextViewDelegate {
         scrollView.contentSize = CGSize(width: view.frame.width, height: view.frame.height*1.5)
         ProfileImageView.frame = CGRect(x: scrollView.center.x-201, y: view.frame.height*0.50-200, width: 200, height: 200)
         ProfileImageView.center = CGPoint(x: view.center.x, y: view.frame.height*0.25)
-        
+        scrollView.addSubview(swipeUpImageView)
         scrollView.addSubview(textView)
         scrollView.addSubview(nameLabel)
         scrollView.scrollEnabled = false
@@ -145,6 +152,7 @@ final class JMAboutViewController: JMViewController, UITextViewDelegate {
                     self.scrollView.scrollRectToVisible(CGRect(x: 0.0, y: self.scrollView.frame.height*0.25+125, width: self.scrollView.frame.width, height: self.scrollView.frame.height), animated: false)
                     self.nameLabel.font = UIFont.preferredFontForTextStyle(UIFontTextStyleHeadline)
                     self.textView.hidden = false
+                    self.swipeUpImageView.hidden = true
                 },
                 completion: nil)
         }

@@ -46,7 +46,11 @@ final class JMAppTableViewCell: JMTableViewCell {
         label.userInteractionEnabled = false
         return label
     }()
-    var delegate: JMImageViewDelegate?
+    var delegate: JMImageViewDelegate? {
+        didSet{
+            AppImageView.delegate = delegate
+        }
+    }
     
     var representingApp: JMApps! {
         didSet{
