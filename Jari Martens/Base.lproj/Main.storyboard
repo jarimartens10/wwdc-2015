@@ -26,10 +26,10 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="42z-EQ-xx7">
+                                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42z-EQ-xx7">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="IGZ-cJ-o7p" customClass="JMImageView" customModule="Jari_Martens" customModuleProvider="target">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo_me" translatesAutoresizingMaskIntoConstraints="NO" id="IGZ-cJ-o7p" customClass="JMImageView" customModule="Jari_Martens" customModuleProvider="target">
                                                     <rect key="frame" x="200" y="80" width="200" height="200"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="200" id="5ME-67-xrW"/>
@@ -39,8 +39,8 @@
                                             </subviews>
                                             <gestureRecognizers/>
                                             <constraints>
-                                                <constraint firstItem="IGZ-cJ-o7p" firstAttribute="top" secondItem="42z-EQ-xx7" secondAttribute="top" constant="80" id="MKL-1z-T5p"/>
-                                                <constraint firstAttribute="centerX" secondItem="IGZ-cJ-o7p" secondAttribute="centerX" id="eBU-X1-VMC"/>
+                                                <constraint firstItem="IGZ-cJ-o7p" firstAttribute="top" secondItem="42z-EQ-xx7" secondAttribute="top" constant="80" id="65K-TT-Zhi"/>
+                                                <constraint firstAttribute="centerX" secondItem="IGZ-cJ-o7p" secondAttribute="centerX" id="pBW-7c-9qg"/>
                                             </constraints>
                                         </scrollView>
                                     </subviews>
@@ -51,6 +51,9 @@
                                         <constraint firstAttribute="trailing" secondItem="42z-EQ-xx7" secondAttribute="trailing" id="NUf-sE-8tn"/>
                                     </constraints>
                                 </view>
+                                <constraints>
+                                    <constraint firstItem="IGZ-cJ-o7p" firstAttribute="centerX" secondItem="xEl-L0-vgF" secondAttribute="centerX" id="rSh-gi-lGQ"/>
+                                </constraints>
                                 <blurEffect style="light"/>
                             </visualEffectView>
                         </subviews>
@@ -520,6 +523,7 @@
         <image name="backgroundImage" width="213" height="160"/>
         <image name="contacts" width="32" height="32"/>
         <image name="loginSpotify" width="488" height="88"/>
+        <image name="photo_me" width="816" height="816"/>
         <image name="playlists" width="32" height="32"/>
         <image name="portfolio" width="32" height="32"/>
     </resources>

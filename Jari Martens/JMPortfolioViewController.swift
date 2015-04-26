@@ -33,6 +33,12 @@ final class JMPortfolioViewController: JMViewController, UITableViewDelegate, UI
         tableView.delegate = self
         tableView.dataSource = self
         view.addSubview(tableView)
+        
+        
+        NSNotificationCenter.defaultCenter().addObserver(self,
+            selector: "preferredContentSizeChanged:",
+            name: UIContentSizeCategoryDidChangeNotification,
+            object: nil)
     }
     
     //###########################################################
@@ -88,4 +94,13 @@ final class JMPortfolioViewController: JMViewController, UITableViewDelegate, UI
     
     //###########################################################
 
+    
+    //MARK: - Notifications
+    //###########################################################
+    
+    func preferredContentSizeChanged(notification: NSNotification) {
+        tableView.reloadData()
+    }
+    
+    //###########################################################
 }
